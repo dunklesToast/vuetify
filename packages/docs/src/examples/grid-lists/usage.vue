@@ -7,7 +7,7 @@
           <v-spacer></v-spacer>
         </v-card-actions>
         <v-container v-bind="{ [`grid-list-${size}`]: true }" fluid>
-          <v-layout row wrap>
+          <v-layout wrap>
             <v-flex
               v-for="n in 9"
               :key="n"
@@ -36,8 +36,8 @@
         { text: 'Small (4px)', value: 'sm' },
         { text: 'Medium (8px)', value: 'md' },
         { text: 'Large (16px)', value: 'lg' },
-        { text: 'Extra large (24px)', value: 'xl' }
-      ]
-    })
+        { text: 'Extra large (24px)', value: 'xl' },
+      ],
+    }),
   }
 </script>
